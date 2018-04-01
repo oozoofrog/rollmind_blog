@@ -9,7 +9,7 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  {%- if site.wiki.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Wiki" }}</h2>
     <ul class="post-list">
       {%- for wiki in site.wiki -%}
