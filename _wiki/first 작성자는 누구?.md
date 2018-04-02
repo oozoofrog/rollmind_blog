@@ -1,7 +1,7 @@
 ---
 layout  : post
 title   : 작성자는 누구?
-public  : true
+tags    : post
 ---
 
-[[rollmind]] 이지
+[[rollmind]]
