@@ -2,6 +2,8 @@
 
 이 위키는 작성 순서대로 보입니다.
 
+- keyword of korean doesn't work well.
+
 [[작성자는 누구?]]
 
 [[rollmind]]
