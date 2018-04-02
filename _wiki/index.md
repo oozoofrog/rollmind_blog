@@ -1,8 +1,7 @@
----
-layout: wiki
-title: "hello wiki"
-date: 2018-03-31
-categories: wiki
----
+# Wiki
 
-[[rollmind]]'s wiki
+이 위키는 작성 순서대로 보입니다.
+
+[[작성자는 누구?]]
+
+[[rollmind]]

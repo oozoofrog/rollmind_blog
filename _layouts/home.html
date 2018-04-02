@@ -3,32 +3,18 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+    {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+    {%- endif -%}
 
-  {{ content }}
-
-  {%- if site.wiki.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Wiki" }}</h2>
-    <ul class="post-list">
-      {%- for wiki in site.wiki -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ wiki.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ wiki.url | relative_url }}">
-            {{ wiki.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ wiki.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+    <wiki class=index>
+        {{ content }}
+    </wiki>
+    <script>
+        ;(function() {
+            var content = document.querySelector('wiki.index');
+            content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]\{(.+?)\}/g, '<a href="wiki/$1">$2</a>');
+            content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]/g, '<a href="wiki/$1">$1</a>');
+        })();
+    </script>
 </div>
