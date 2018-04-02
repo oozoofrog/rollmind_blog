@@ -1,9 +1,8 @@
 # Wiki
 
-이 위키는 작성 순서대로 보입니다.
+###TODO
+- [ ] 마크다운 파일 생성시 yaml 자동 생성 할 수 있는 방법을 모색해보자
 
-- keyword of korean doesn't work well.
-
-[[작성자는 누구?]]
+[[1. 작성자는 누구?]]
 
 [[rollmind]]
