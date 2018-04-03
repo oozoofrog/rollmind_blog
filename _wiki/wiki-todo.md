@@ -1,3 +1,8 @@
+---
+layout: post
+title: Wiki TODO
+---
+
 ### TODO
 - [o]  모든 HTML 템플릿에 Vue.js 적용
     - [X] wiki link replace 함수 추가(from [johngrib](https://johngrib.github.io))
