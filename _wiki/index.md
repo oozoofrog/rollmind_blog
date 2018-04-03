@@ -17,7 +17,7 @@ function replaceWikiLink(query) {
         - 공백문자와 특수문자를 실제 링크로 만들지 말고 타이틀에만 넣어보자
         - 지킬을 수정하보자
 
-[[vimwikitips]]{vim(wiki) tips들을 모아보았다.}
+[[vimwikitips]]{vim(wiki) tips}
 
 [[whoiswriter]]
 
