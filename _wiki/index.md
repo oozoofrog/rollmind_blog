@@ -19,8 +19,4 @@ function replaceWikiLink(query) {
 
 [[vimwikitips]]{vim(wiki) tips}
 
-[[whoiswriter]]
-
-[[작성자는 누구?]]{../wiki/작성자는-누구?}
-
-[[rollmind]]
+[[diary]]{매일 짧은 일기}
