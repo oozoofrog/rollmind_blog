@@ -4,8 +4,8 @@
     <script>
         function replaceWikiLink(query) {
             var content = document.querySelector(query);
-            content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]\{(.+?)\}/g, '<a href="wiki/$1">$2</a>');
-            content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]/g, '<a href="wiki/$1">$1</a>');
+            content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]\{(.+?)\}/g, '<a href="/wiki/$1">$2</a>');
+            content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]/g, '<a href="/wiki/$1">$1</a>');
         }
 
     </script>
