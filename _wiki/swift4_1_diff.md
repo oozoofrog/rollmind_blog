@@ -84,7 +84,7 @@ protocol Hi {
 	associatedtype World: Hi where World.Hello == Hello, World.World == World
 }
 ~~~
-- 어따 쓰면 좋을지 아직 모르겠지만, 어쨌건 프로토콜의 where절을 사용할 때 지금껏 안되던 것을이 될 거 같다는 희망
+- 어따 쓰면 좋을지 아직 모르겠지만, 어쨌건 프로토콜의 where절을 사용할 때 지금껏 안되던 것이 되겠다는 희망이 생김
 
 <br/>
 ## Protocol에서 `weak`, `unowned` 지시자 제거
