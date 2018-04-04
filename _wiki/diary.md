@@ -1,6 +1,8 @@
 ---
-layout: post
-title: 일기
+layout  : post
+title   : 일기
+updated : 2018-04-05 00:18:12 +0900
+comment : false
 ---
 * TOC
 {: toc}
