@@ -1,23 +1,24 @@
 ---
 layout: post
-title: 스위프트 4.1은 뭐가 바뀌었을까?
+title: 스위프트 4.1 변경사항 요약
 ---
 * TOC
 {: toc}
 
 from [raywenderlich](https://www.raywenderlich.com/187826/whats-new-in-swift-4-1)
 
+<br/>
 # 언어 개선
 
-## 1. Conditional Conformance
+## Conditional Conformance
 evolution: [SE-0143](https://github.com/apple/swift-evolution/blob/master/proposals/0143-conditional-conformances.md)
 
 ### in standard library
 
-- Optional의 Wrapped가 Equatable을 상속받은 타입이라면 Optional도 Equatable이 됩니다.
+- Optional의 Wrapped가 Equatable을 상속받은 타입이라면 Optional도 Equatable이 되었다.
 - 이 말인 즉슨 `[Int?] == [Int?]` 비교가 가능해졌다는 이야기
-- `[[Int]] == [[Int]]`도 가능합니다.
-- Array, Dictionary의 Value가 Equatable이면 Array, Dictionary도 Equatable입니다.
+- `[[Int]] == [[Int]]`도 가능하다.
+- Array, Dictionary의 Value가 Equatable이면 Array, Dictionary도 Equatable이다.
 
 ### in code
 
@@ -44,7 +45,7 @@ let t2 = Property(property: "t2", value: 1)
 
 print(t1 == t2)
 ~~~
-- 4.0까지는 상속 확장같은 제약조건이 있는 경우 where contaraint를 쓸 수가 없었지만, 4.1부터는 가능해졌습니다.
+- 4.0까지는 상속 확장같은 제약조건이 있는 경우 where contaraint를 쓸 수가 없었지만, 4.1부터는 가능해졌다.
 
 <br/>
 ### in JSON parsing
@@ -52,13 +53,13 @@ print(t1 == t2)
 - Codable을 이용하는 경우에도 Optional, Array, Dictionary에서도 잘 작동합니다.
 
 <br/>
-## JSON Encoding시에 카멜 케이스와 스네이크 케이스를 변환할 수 있습니다.
+## JSON Encoding시에 카멜 케이스와 스네이크 케이스를 변환할 수 있다.
 
-- 인코딩시 키 문자열을 snake case로 변환하는 옵션이 추가되었습니다.
-- 디코딩시 키 문자열을 snake case에서 camel case로 변환하는 옵션이 추가되었습니다.
+- 인코딩시 키 문자열을 snake case로 변환하는 옵션이 추가되었다.
+- 디코딩시 키 문자열을 snake case에서 camel case로 변환하는 옵션이 추가되었다.
 
 <br/>
-## Equatable, Hashable 프로토콜이 편해졌습니다.
+## Equatable, Hashable 프로토콜이 편해졌다.
 
 evolution: [SE-0185](https://github.com/apple/swift-evolution/blob/master/proposals/0185-synthesize-equatable-hashable.md)
 
@@ -69,7 +70,7 @@ evolution: [SE-0185](https://github.com/apple/swift-evolution/blob/master/propos
 
 evolution: [SE-0188](https://github.com/apple/swift-evolution/blob/master/proposals/0188-stdlib-index-types-hashable.md)
 
-- 배열의 index type이 Hashable이 되었습니다. 따라서 KeyPath로 사용이 가능하다.
+- 배열의 index type이 Hashable이 되었다. 따라서 KeyPath로 사용이 가능하다.
 
 <br/>
 ## Protocol의 associated type에 재귀적 조건문선언이 가능해졌다.
