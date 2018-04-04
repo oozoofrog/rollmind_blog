@@ -63,7 +63,8 @@ print(t1 == t2)
 
 evolution: [SE-0185](https://github.com/apple/swift-evolution/blob/master/proposals/0185-synthesize-equatable-hashable.md)
 
-- 명시적으로 == 함수를 hashValue 프로퍼티를 선언하지 않아도 된다.
+- boilerplate code 제거
+- 명시적으로 == 함수나 hashValue 프로퍼티를 선언하지 않아도 된다.
 
 <br/>
 ## Hashable Index Types
