@@ -13,8 +13,8 @@ function replaceWikiLink(query) {
     content.innerHTML = content.innerHTML.replace(/\[\[(.+?)\]\]/g, '<a href="wiki/$1">$1</a>');
 }
     ~~~
-- [ ] Disqus를 적용해보자
-- [ ]  마크다운 파일 생성시 yaml 자동 생성 할 수 있는 방법을 모색해보자
+- [X] Disqus를 적용해보자
+- [X]  마크다운 파일 생성시 yaml 자동 생성 할 수 있는 방법을 모색해보자
 - [ ]  한글 링크 처리를 어떻게 하면 좋을지 고민해보자
     - 공백문자 특수문자등이 다 안되는군요.
     - 두가지 방법이 있겠다.
