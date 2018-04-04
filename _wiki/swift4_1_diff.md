@@ -17,7 +17,7 @@ evolution: [SE-0143](https://github.com/apple/swift-evolution/blob/master/propos
 
 - Optional의 Wrapped가 Equatable을 상속받은 타입이라면 Optional도 Equatable이 되었다.
 - 이 말인 즉슨 `[Int?] == [Int?]` 비교가 가능해졌다는 이야기
-- `[[Int]] == [[Int]]`도 가능하다.
+- `[ [Int] ] == [ [Int] ]`도 가능하다.
 - Array, Dictionary의 Value가 Equatable이면 Array, Dictionary도 Equatable이다.
 
 ### in code
