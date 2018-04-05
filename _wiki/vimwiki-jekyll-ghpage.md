@@ -5,6 +5,8 @@ title: vimwiki+jekyll+깃헙페이지 개발하는 이야기
 * TOC
 {: toc}
 
+**아래에 쓴 것보다 더 좋은 방법을 [johngrib](https://johngrib.github.io/wiki/vimwiki/#vimscript-서포트-코드 )님의 블로그에서 찾았습니다.**
+
 ### 처음 작성해본 함수
 처음 위키 파일을 만들면 yaml을 상단 자동으로 생성하게 하고 싶었다. 그래서 아래와 같은 함수를 만드는데... 2시간 걸렸다...
 
