@@ -1,7 +1,7 @@
 ---
-layout  : post
+layout  : wiki
 title   : 일기
-updated : 2018-04-05 00:18:12 +0900
+updated : 2018-04-06 23:02:17 +0900
 comment : false
 ---
 * TOC

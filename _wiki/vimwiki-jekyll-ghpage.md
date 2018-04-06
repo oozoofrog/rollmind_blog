@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wiki
 title: vimwiki+jekyll+깃헙페이지 개발하는 이야기
 ---
 * TOC
@@ -16,7 +16,7 @@ function! AddYAML()
     " ---문자열을 검색해서 0이고, 전체 라인수가 1이면 버퍼가 존재하지 않는 처음 만들어진 파일이라고 판단 exe ... 명령어를 실행
     if search('---', 'n', line(0)) < 1 && line('$') == 1
         " normal 모드에서 i(nsert)를 사용해서 문자열을 추가
-        exe "normal i"."---\nlayout: post\ntitle: " . expand('%:t') . "\n---"
+        exe "normal i"."---\nlayout: wiki\ntitle: " . expand('%:t') . "\n---"
     endif
 endfunction
 

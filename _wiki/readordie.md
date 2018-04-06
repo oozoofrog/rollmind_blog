@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wiki
 title: 읽거나 죽거나
 ---
 

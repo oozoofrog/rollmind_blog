@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: wiki
 title: 스위프트 4.1 변경사항 요약
+parent: swift
 ---
 * TOC
 {: toc}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wiki
 title: Vim 그리고 위키 팁스
 ---
 
