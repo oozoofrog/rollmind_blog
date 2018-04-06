@@ -3,7 +3,7 @@ layout  : wiki
 title   : iOS 취약점 정리
 summary : 
 date    : 2018-04-05 15:10:27 +0900
-updated : 2018-04-07 00:02:53 +0900
+updated : 2018-04-07 00:06:47 +0900
 tags    : 
 toc     : true
 public  : true
@@ -23,7 +23,7 @@ latex   : false
 1. iOS에서 WebKit의 javascript 엔진의 perl compatible regular expressions(줄여서 PCRE) 라이브러리에서 다중 힙 기반 버퍼 오버플로우를 통해 원격으로 특정 javascript를 통해 임의의 코드를 실행할 수 있다.
     - iOS 1.0.1 미만
     - 유형: code execution, overflow
-    - 다만, 힘 메모리는 동적으로 지정되기 때문에, 이런 방식의 공격자체는 효과적이는 않다고 한다.
+    - 다만, 힙 메모리는 동적으로 지정되기 때문에, 이런 방식의 공격자체는 효과적이는 않다고 한다.
 
 # 2008
 
