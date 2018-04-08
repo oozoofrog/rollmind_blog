@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: vimwiki+jekyll+깃헙페이지 개발하는 이야기
+updated: 2018-04-08 22:47:39 +0900
 ---
 * TOC
 {: toc}
