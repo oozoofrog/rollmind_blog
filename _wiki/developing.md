@@ -9,3 +9,5 @@ title: 개발새발?
 
 [[vimwikitips]]{vim(wiki) tips}
 
+[[vim]]
+
