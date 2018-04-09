@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: vimwiki+jekyll+깃헙페이지 개발하는 이야기
-updated: 2018-04-09 23:48:59 +0900
+updated: 2018-04-09 23:57:27 +0900
 parent: developing
 ---
 * TOC
@@ -10,7 +10,7 @@ parent: developing
 # 숙제들
 
 - **[해결]** utteranc.es 잘 작동 안한다. 모색중
-    - forced repository는 issue를 달 수가 없다. repository를 새로 생성해야 한다.
+    - forked repository는 issue를 달 수가 없다. repository를 새로 생성해야 한다.
 
 # 진행
 
