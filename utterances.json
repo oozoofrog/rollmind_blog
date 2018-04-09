@@ -1,5 +1,5 @@
 {
-    [origins]: [
+    "origins": [
         "https://rollming.github.io",
         "http://localhost:4000"
     ]
