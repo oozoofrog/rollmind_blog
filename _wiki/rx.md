@@ -3,12 +3,13 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2018-04-09 17:21:34 +0900
-updated : 2018-04-09 21:13:28 +0900
+updated : 2018-04-09 21:29:53 +0900
 tags    : 
 toc     : true
 public  : true
 parent  : developing
 latex   : false
+comments : true
 ---
 * TOC
 {:toc}

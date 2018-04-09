@@ -22,7 +22,9 @@ layout: default
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
     </div>
-    {%- include utterance_comments.html -%}
+    <div class="post-comments">
+    {%- include disqus_comments.html -%}
+    </div>
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
     <script>
         replaceWikiLink('div.post-content');
