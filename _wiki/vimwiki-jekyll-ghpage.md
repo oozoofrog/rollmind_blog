@@ -1,10 +1,16 @@
 ---
 layout: wiki
 title: vimwiki+jekyll+깃헙페이지 개발하는 이야기
-updated: 2018-04-08 22:47:39 +0900
+updated: 2018-04-09 12:28:03 +0900
 ---
 * TOC
 {: toc}
+
+# 숙제들
+
+- utteranc.es 잘 작동 안한다. 모색중
+
+# 진행
 
 **아래에 쓴 것보다 더 좋은 방법을 [johngrib](https://johngrib.github.io/wiki/vimwiki/#vimscript-서포트-코드 )님의 블로그에서 찾았습니다.**
 
