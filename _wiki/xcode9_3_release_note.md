@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2018-04-09 22:40:10 +0900
-updated : 2018-04-09 22:45:53 +0900
+updated : 2018-04-09 23:05:27 +0900
 tags    : 
 toc     : true
 public  : true
@@ -15,18 +15,18 @@ latex   : false
 
 ### Xcode 9.3
 
-#### New 64-bit testing mode
+#### 새로운 64 비트 테스팅 모드
 
-Developers can use a new 64-bit testing mode in macOS 10.13.4 to test software for 64-bit compatibility.
+개발자들은 macOS 10.13.4에서 64비트 호환성 테스트를 위한 새로운 64비트 테스팅 모드를 사용할 수 있습니다.
 
-**Note:** It is strongly recommended that this mode is enabled only by developers or experienced IT administrators.
+**주의:** 이 모드는 숙련된 IT 관리자나 개발자들만 활성화 할 것을 강력히 권고합니다.
 
-To enable the 64-bit testing mode:
+64비트 테스팅모드를 활성하 하기 위해서는:
 
-1. Boot to Recovery OS by restarting your machine and holding down the Command and R keys at startup.
-2. Launch Terminal
-3. Execute the following command: `nvram boot-args="-no32exec"`
-4. Restart the machine
+1. 부팅시 Command + R키를 눌러 OS 복구 모드로 진입.
+2. 터미널 실행
+3. 다음의 코드를 실행: `nvram boot-args="-no32exec"`
+4. 재부팅
 
 The 64-bit testing mode prevents 32-bit processes from launching. Launching an app that depends on 32-bit software results in a notification that the application can't be opened. Other types of software may fail silently, such as 32-bit versions of Dashboard and WebKit plugins, preference panes, and background processes.
 
