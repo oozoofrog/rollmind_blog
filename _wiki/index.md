@@ -1,7 +1,7 @@
 
-[[swift]]
+[[swift]]{Swift에 대한 이것저것}
 
-[[iOS]]
+[[iOS]]{iOS에 대한 이것저것}
 
 [[developing]]{개발새발?}
 
