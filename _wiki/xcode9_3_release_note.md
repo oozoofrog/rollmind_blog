@@ -3,7 +3,7 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2018-04-09 22:40:10 +0900
-updated : 2018-04-09 23:05:27 +0900
+updated : 2018-04-10 22:13:39 +0900
 tags    : 
 toc     : true
 public  : true
@@ -15,31 +15,31 @@ latex   : false
 
 ### Xcode 9.3
 
-#### 새로운 64 비트 테스팅 모드
+#### 새로운 64 비트 테스트 모드
 
-개발자들은 macOS 10.13.4에서 64비트 호환성 테스트를 위한 새로운 64비트 테스팅 모드를 사용할 수 있습니다.
+개발자들은 macOS 10.13.4에서 64 비트 호환성 테스트를 위한 새로운 64 비트 테스트 모드를 사용할 수 있습니다.
 
 **주의:** 이 모드는 숙련된 IT 관리자나 개발자들만 활성화 할 것을 강력히 권고합니다.
 
-64비트 테스팅모드를 활성하 하기 위해서는:
+64 비트 테스트모드를 활성하 하기 위해서는:
 
 1. 부팅시 Command + R키를 눌러 OS 복구 모드로 진입.
 2. 터미널 실행
 3. 다음의 코드를 실행: `nvram boot-args="-no32exec"`
 4. 재부팅
 
-The 64-bit testing mode prevents 32-bit processes from launching. Launching an app that depends on 32-bit software results in a notification that the application can't be opened. Other types of software may fail silently, such as 32-bit versions of Dashboard and WebKit plugins, preference panes, and background processes.
+64 비트 테스트 모드에서는 기동시 32비트 프로세스가 실행되지 않습니다. 32비트에 기반한 소프트웨어를 실행하는 경우 실행하지 못한다는 알림을 표시합니다. 32 비트 버전의 대시보드나 WebKit 플러그인, 설정 창들(preference panes)같은 타입의 소프트웨어는 특별한 안내 없이 실패할 수 있습니다.
 
-Disable the test mode once the software is updated to work in 64-bit.
+소프트웨어가 64 비트에서 동작하도록 업데이트 되면, 테스트 모드를 비활성화 하세요.
 
-To disable the 64-bit testing mode:
+64 비트 테스트 모드를 비활성화 하기:
 
-1. Boot to Recovery OS by restarting your machine and holding down the Command and R keys at startup.
-2. Launch Terminal
-3. Execute the following command: `nvram boot-args=""`
-4. Restart the machine
+1. 복구 모드로 부팅하기 위해, 재기동 하신 후, Command + R 키를 누르고 계세요.
+2. 터미널을 여세요.
+3. 다음의 명령어를 실행하세요: `nvram boot-args=""`
+4. 기기를 재기동 하세요.
 
-In future releases, the 64-bit testing mode may provide additional information for the developer to help test and qualify software.
+나중 버전부터는 64 비트 테스트 모드에서 테스트와 소프트웨어 품질을 위한 추가적인 정보를 개발자에게 제공할 수 있습니다.
 
 #### Xcode changes for deprecation of macOS 32-bit support
 
