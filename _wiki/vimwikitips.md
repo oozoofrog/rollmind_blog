@@ -1,10 +1,15 @@
 ---
 layout: wiki
 title: Vim 그리고 위키 팁스
+updated: 2018-04-10 09:12:07 +0900
+parent: developing
 ---
 
 * TOC
 {:toc}
+
+### 설정
+- expandtab 설정은 tab키를 사용할 경우 space로 바꾼다. noexpandtab 설정은 tab을 tab으로 사용한다.
 
 ### 이동
 - w, b: 단어 단위 이동
