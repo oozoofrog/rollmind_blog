@@ -11,6 +11,8 @@ latex   : false
 * TOC
 {:toc}
 
+[[view_etc]]{View와 ViewController}
+
 [[translate_view_controller_programming_guide_for_ios]]{View Controller Programming Guide for iOS 번역}
 
 [[iosvulnerabilities]]{iOS 취약점}
