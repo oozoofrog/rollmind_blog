@@ -3,7 +3,7 @@ layout  : wiki
 title   : Coding the Matrix
 summary : 
 date    : 2018-04-12 21:53:45 +0900
-updated : 2018-04-12 22:27:41 +0900
+updated : 2018-04-12 23:20:58 +0900
 tags    : linear_algebra python
 toc     : true
 public  : true
@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
-*책은 python2로 되어있다. 내 첫 번째 목표는 이것들을 python3에서 실행할 수 있게 바꾸는 것이다. 두 번째 목표는 이것을 스위프트로 구현하는 것이다.*
+* 내 목표는 최종적으로 이 책의 소스들을을 스위프트로 구현하는 것이다.*
 
 # Coding the Matrix
 
