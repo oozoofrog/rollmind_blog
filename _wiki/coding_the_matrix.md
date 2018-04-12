@@ -3,7 +3,7 @@ layout  : wiki
 title   : Coding the Matrix
 summary : 
 date    : 2018-04-12 21:53:45 +0900
-updated : 2018-04-12 22:17:42 +0900
+updated : 2018-04-12 22:27:41 +0900
 tags    : linear_algebra python
 toc     : true
 public  : true
@@ -29,3 +29,8 @@ latex   : false
 - 두 집합의 크기는 두 집합의 요소의 갯수의 곱과 같다.
 
 #### 1.3 함수
+**정의**
+- 비공식 <br/>입력(pre-image) 집합 D의 각 원소에 대한 출력(image) 가능한 규칙
+- 공식 <br/>(a, b)쌍의 유한에서 무한까지의 집합. 각 쌍의 첫 번째 원소는 모두 다름.
+
+**표기** <br/>$$f: D \to F$$
