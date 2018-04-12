@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 
+title   : View와 ViewController
 summary : 
 date    : 2018-04-11 16:55:04 +0900
-updated : 2018-04-11 16:55:47 +0900
+updated : 2018-04-12 21:29:28 +0900
 tags    : 
 toc     : true
 public  : true
