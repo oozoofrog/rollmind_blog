@@ -3,7 +3,7 @@ layout  : wiki
 title   : View Controller Programming Guide for iOS 번역
 summary : 
 date    : 2018-04-10 22:43:02 +0900
-updated : 2018-04-10 22:44:02 +0900
+updated : 2018-04-12 21:47:37 +0900
 tags    : 
 toc     : true
 public  : true
@@ -53,3 +53,8 @@ latex   : false
 *그림 1-3 뷰 컨트롤러는 데이터 객체와 뷰를 중개*
 
 ![img](https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_CustomSubclasses_fig_1-3_2x.png) 
+
+여러분은 항상 뷰 컨트롤러와 데이터 객체들 간의 책임을 깔끔하게 분리하도록 해야합니다. 데이터 구조의 무결성을 보장하는 대부분의 로직은 데이터 객체들 자신에 있습니다. 뷰 컨트롤러는 뷰로부터의 입력을 검증해야 하고, 데이터 객체들이 요구하는 형식에 맞게 입력을 가공할 수 있지만, 실제 데이터의 관리에 대해서는 뷰 컨트롤러의 역할을 최소로 유지해야 합니다.
+
+`[UIDocument](https://developer.apple.com/documentation/uikit/uidocument )` 객체는 뷰 컨트롤러로 부터 데이터를 분리해서 관리하는 방법중의 하나입니다. document 객체는 영구 저장소에서 데이터를 읽고 쓰는 방법을 제공하는 컨트롤러 객체입니다. 서브 클래스를 만들 때, 여러분은 데이터를 추출하고 그것을 뷰 컨트롤러나 앱의 다른 부분에 전달하기 위한 로직과 메소드를 더해야 합니다. 뷰 컨트롤러는 뷰를 쉽게 갱신할 수 있도록 어떤 데이터는 복사본을 저장해야 하지만, 원본 데이터는 항상 document가 가지게 됩니다.
+
