@@ -3,7 +3,7 @@ layout: wiki
 title: 개발새발?
 ---
 
-[[solving_problems]]{그 동안의 문제와 해결}
+[[solving_problems]]{개발하며 겪었던 문제와 해결}
 
 [[rx]]
 

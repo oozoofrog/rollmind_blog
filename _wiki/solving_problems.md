@@ -1,13 +1,13 @@
 ---
 layout  : wiki
-title   : 
+title   : 개발하며 겪었던 문제와 해결책
 summary : 
 date    : 2018-04-12 17:19:48 +0900
-updated : 2018-04-12 17:26:15 +0900
+updated : 2018-04-12 18:06:05 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
+parent  : developing
 latex   : false
 ---
 * TOC
