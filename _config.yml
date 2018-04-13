@@ -29,8 +29,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
 collections:
     wiki:
         output: true
