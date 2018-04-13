@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드
 summary : 유니코드에 대한 정리
 date    : 2018-04-13 22:13:26 +0900
-updated : 2018-04-14 00:10:37 +0900
+updated : 2018-04-14 00:37:09 +0900
 tags    : 
 toc     : true
 public  : true
@@ -46,6 +46,6 @@ latex   : false
 
 - 1989년
 	- 초반, 다른 회사들이 참여. 당시, Metaphor의 켄 휘슬러(Ken Whistler)와 마이크 커나한(Mike Kernaghan), [RLG](https://en.wikipedia.org/wiki/Research_Libraries_Group)의 카렌 스미스 요시무라(Karen Smith-Yoshimura)와 조앤 앨리프랜드(Joan Aliprand), Sun의 글렌 라이트(Glen Wright)가 작업 그룹에 합류하여 디자인에 큰 기여를 시작했다.
-	- 중반, 유니코드를 기존 표준에 가깝게 하기 위한 여러 변경이 있었다. 존재하던 모든 ISO 복합 문자(composite character)가 유니코드에 추가되었고, **[round trips](https://en.wikipedia.org/wiki/Round-trip_format_conversion)**(국제 표준에서 두 문자로 이루어진 모든 문자는 유니코드로 분류)
+	- 중반, 유니코드를 기존 표준에 가깝게 하기 위한 여러 변경이 있었다. 존재하던 모든 ISO 복합 문자(composite character)가 유니코드에 추가되었고, **[round trips](https://en.wikipedia.org/wiki/Round-trip_format_conversion)**(국제 표준에서 두 문자로 이루어진 모든 문자는 유니코드로 분류)가 추가되었고, 가능한 경우 [ISO 8859](https://ko.wikipedia.org/wiki/ISO/IEC_8859 )의 순서를 따르도록 변경되었다.
 - 1990년
 	- 마이크로소프트를 대표하여 Michel Suignard와 Asmus Freytag가 합류. 그들은 Whistler와 함께 다른 문자 인코딩 표준에 대한 매핑 테이블을 만들기 위해 광범위한 작업을 지속했다. 1990년 봄에 유니코드 알파벳과 기호는 완성되었지만, 교차 매핑 작업은 계속되었다. ISO 10646(유니코드 표준안 및 워킹 그룹), IBM, Mac과 국제 표준에 대한 이 광범위한 매핑 작업은 완전하고 효과적인 인코딩을 제작하는데 매우 가치있는 도움이 되었다.
