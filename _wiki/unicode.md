@@ -1,6 +1,6 @@
 ---
 layout  : wiki
-title   : 유니코드
+title   : 유니코드(Unicode)
 summary : 유니코드에 대한 정리
 date    : 2018-04-13 22:13:26 +0900
 updated : 2018-04-14 00:37:09 +0900
