@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-16 23:23:18 +0900
+updated : 2018-04-16 23:25:01 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -62,4 +62,4 @@ Becker와 Collins는 한자 통합을 위한 표준을 논의하기 위해 팔�
 
 ## 1988년 9월
 
-Becker와 Collins는 **Han Unification**과 ISO DP 10646에서 허용하는 C0 C1 제어 문자 사용을 제안하기 위해 ANSI X3L2를 방문했다. 후에, Becker는 ISO WG2에서 **Unicode '88'**을 소개했다.
+Becker와 Collins는 **Han Unification**과 ISO DP 10646에서 [C0 C1](https://en.wikipedia.org/wiki/C0_and_C1_control_codes ) 제어 문자의 사용을 제안하기 위해 ANSI X3L2를 방문했다. 후에, Becker는 ISO WG2에서 **Unicode '88'**을 소개했다.
