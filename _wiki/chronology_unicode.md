@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-16 23:27:43 +0900
+updated : 2018-04-16 23:28:54 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -36,7 +36,7 @@ Joe Becker의 제록스 그룹은 Davis와 다국어에 대한 문제를 논의�
 
 ## 1987년 12월
 
-Becker가 작성한 문서에서 독특하고(unique), 범용적이고(universal) 그리고, 일관성(uniform)있는 문자 인코딩이라는 의미에서 "Unicode"라는 용어가 처음 사용되었다. 
+Becker가 작성한 문서에서 유일하고(unique), 범용적이고(universal) 그리고, 일관성(uniform)있는 문자 인코딩이라는 의미에서 "Unicode"라는 용어가 처음 사용되었다. 
 
 ## 1988년 2월
 
