@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 유니코드 연대기
+title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-16 23:26:17 +0900
+updated : 2018-04-16 23:27:43 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ latex   : false
 * TOC
 {:toc}
 
-# 유니코드 연대기
+# 유니코드 1.0 연대기
 
 *이 글은 unicode.org에 수록되어있는 unicode version 1.0가 나오기 까지의 연대별 히스토리입니다.*
 

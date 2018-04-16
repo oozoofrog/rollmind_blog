@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드(Unicode)
 summary : 유니코드에 대한 정리
 date    : 2018-04-13 22:13:26 +0900
-updated : 2018-04-16 16:49:26 +0900
+updated : 2018-04-16 23:27:20 +0900
 tags    : translation unicode string character
 toc     : true
 public  : true
@@ -76,4 +76,4 @@ Unicode, Inc의 초기 임원진은 다음과 같다:
 - Ken Whistler, 사무관
 - Bill English, 재무관
 
-다음은 [[chronology_unicode]]{유니코드 연대기}로 넘어간다.
+다음은 [[chronology_unicode]]{유니코드 1.0 연대기}로 넘어간다.
