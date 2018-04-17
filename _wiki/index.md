@@ -7,6 +7,8 @@
 
 [[developing]]{개발새발?}
 
+[[settings]]{가지가지 설정법}
+
 [[readordie]]{읽거나 그냥 죽거나}
 
 [[study]]{공부, 그리고 공부}
