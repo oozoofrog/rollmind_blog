@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-16 23:28:54 +0900
+updated : 2018-04-19 23:52:06 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -63,3 +63,11 @@ Becker와 Collins는 한자 통합을 위한 표준을 논의하기 위해 팔�
 ## 1988년 9월
 
 Becker와 Collins는 **Han Unification**과 ISO DP 10646에서 [C0 C1](https://en.wikipedia.org/wiki/C0_and_C1_control_codes ) 제어 문자의 사용을 제안하기 위해 ANSI X3L2를 방문했다. 후에, Becker는 ISO WG2에서 **Unicode '88'**(에 에어리어 88...)을 소개했다.
+
+## 1988년 10월
+
+Collins와 Becker는 Association of Font Information(이하 AFII)의 Ed Smura의 권고로 한자에 대한 논의를 위해 도쿄에서 열린 AFII 회합에 참여했다. Han Unification과 관련한 Xerox Han 상호 참조 도구에 대한 Fuji Xerox에서의 데모가 포함되었다.
+
+## 1988년 11월
+
+Collins가 Unicode Non-Han 데이터베이스를 만들고, Unicode의 명칭과 매핑을 위한 첫 데이터베이스의 초기 범위를 정의하기 시작했다. 계속된 회의를 통해 핵심 내용과 문제가 개선되었다. 원 디자인은 복합 문자를 제외하고 텍스트 크기와 텍스트 형태의 구분에 기초했다.
