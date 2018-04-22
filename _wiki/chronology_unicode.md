@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-19 23:52:06 +0900
+updated : 2018-04-22 23:46:53 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -71,3 +71,9 @@ Collins와 Becker는 Association of Font Information(이하 AFII)의 Ed Smura의
 ## 1988년 11월
 
 Collins가 Unicode Non-Han 데이터베이스를 만들고, Unicode의 명칭과 매핑을 위한 첫 데이터베이스의 초기 범위를 정의하기 시작했다. 계속된 회의를 통해 핵심 내용과 문제가 개선되었다. 원 디자인은 복합 문자를 제외하고 텍스트 크기와 텍스트 형태의 구분에 기초했다.
+
+## 1989년 1월
+
+Collins는 제록스의 표준을 구현하는 Ed Smura, Abhay Busha, Becker와 만나 Han Unification을 위해 데이터베이스를 공유하는 문제에 대해 논의했다. 제록스는 [ISO 10646](https://ko.wikipedia.org/wiki/국제_문자_세트 )에 대한 다양한 기업의 대안을 지원한다. 양 사의 데이터베이스의 조화를 목표로 데이터 교환에 동의한다.
+
+Metaphor는 자사의 소프트웨어의 국제화를 지원하기 위해 16비트 문자 인코딩을 포함하기로 결정한다.
