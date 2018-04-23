@@ -13,6 +13,8 @@ latex   : false
 * TOC
 {:toc}
 
+[[todos]]{To Do}
+
 [[coding_the_matrix]]{Coding the Matrix}
 
 [[unicode]]{유니코드}

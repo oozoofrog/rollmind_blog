@@ -1,0 +1,21 @@
+---
+layout  : wiki
+title   : 
+summary : 
+date    : 2018-04-23 13:09:51 +0900
+updated : 2018-04-23 13:11:50 +0900
+tags    : 
+toc     : true
+public  : true
+parent  : 
+parenttitle : 
+latex   : false
+---
+* TOC
+{:toc}
+
+지금 현재 가장 저를 괴롭히고 있는 것은
+1. Xcode용 vim 플러그인인 XVim2 에서 한글이 잘 안되는 것
+2. iPad에서 키패드가 너무 커서 불편한 것
+
+지금 당장 개발해볼 만한 것은 2번인 키패드입니다. 아이디어는 우측이나 좌측등 화면의 4분면의 일부분을 점유하는 키보드 익스텐션을 만들어볼 예정입니다.
