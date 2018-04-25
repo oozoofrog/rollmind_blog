@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-22 23:46:53 +0900
+updated : 2018-04-25 23:09:20 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -77,3 +77,15 @@ Collins가 Unicode Non-Han 데이터베이스를 만들고, Unicode의 명칭과
 Collins는 제록스의 표준을 구현하는 Ed Smura, Abhay Busha, Becker와 만나 Han Unification을 위해 데이터베이스를 공유하는 문제에 대해 논의했다. 제록스는 [ISO 10646](https://ko.wikipedia.org/wiki/국제_문자_세트 )에 대한 다양한 기업의 대안을 지원한다. 양 사의 데이터베이스의 조화를 목표로 데이터 교환에 동의한다.
 
 Metaphor는 자사의 소프트웨어의 국제화를 지원하기 위해 16비트 문자 인코딩을 포함하기로 결정한다.
+
+# 1989년 2월
+
+유니코드 회합에 Metaphor (Mike Kernaghan과 Ken Whistler), RLG(Karen Smith-Yoshimura와 Joan Aliprand)가 참여했다.
+
+Sun Microsystems의 Glenn Wright와 Adobe의 John Renner, Claris의 Joe Bosurgi, HP의 Mike Ksar, NeXT의 James Higa, 그리고 Pacific Rim Connections의 James Caldwell이 참여하며 유니코드 회합은 격월로 열리게 되었다.
+
+1991년 유니코드 협회가 발족되고, 유니코드 기술 위원회로 이름이 바뀌게 되는, 유니코드 작업 그룹 회합, 1991년 유니코드 협회 발족과 함께 유니코드 기술 위원회로 바뀌게 되는 모임에 번호를 매기기 시작한 것은 1989년 2월 회합에서 시작되었다.
+
+초창기에 Xerox, Metaphor, Appple, 그리고 HP에서 열리던 회의를 거쳐 RLG가 공식적인 회합장소를 제공했다.
+
+Glenn Wright는 유니코드에 대한 넷상의 토론을 위해 Unicode@sun.com을 만들고 관리하기 시작했다.
