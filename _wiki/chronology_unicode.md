@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-25 23:09:20 +0900
+updated : 2018-04-25 23:23:10 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -89,3 +89,11 @@ Sun Microsystems의 Glenn Wright와 Adobe의 John Renner, Claris의 Joe Bosurgi,
 초창기에 Xerox, Metaphor, Appple, 그리고 HP에서 열리던 회의를 거쳐 RLG가 공식적인 회합장소를 제공했다.
 
 Glenn Wright는 유니코드에 대한 넷상의 토론을 위해 Unicode@sun.com을 만들고 관리하기 시작했다.
+
+# 1989년 3월
+
+Collins는 RLG와 CCCII의 데이터를 사용해서 [Hypercard](https://ko.wikipedia.org/wiki/하이퍼카드 )로 유니코드 Han Database 만들기 시작했다. [Big Five/CNS](https://ko.wikipedia.org/wiki/Big5 ), [GB](https://en.wikipedia.org/wiki/GB_18030 ), [JIS](https://en.wikipedia.org/wiki/JIS_encoding ), [KS](https://en.wikipedia.org/wiki/KS_X_1001 ), 그리고 EACC로 이루어진 Han 표준은 5월에 완성되었다.
+
+# 1989년 4월
+
+당시까지의 ISO 등록 표준에 모든 복합 문자를 포함하고, 현존하는 모든 표준에 round trip 변환을 보장한다는 결정을 내렸다.
