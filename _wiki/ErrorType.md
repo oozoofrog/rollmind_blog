@@ -3,7 +3,7 @@ layout  : wiki
 title   : Error(Type)
 summary : 
 date    : 2018-04-26 22:34:53 +0900
-updated : 2018-04-26 23:33:41 +0900
+updated : 2018-04-26 23:34:31 +0900
 tags    : 
 toc     : true
 public  : true
@@ -57,7 +57,9 @@ enum SomeError: Error {
     }
     ...
 }
-1. _userDomain은 NSDictionary를 반환한다. [Key: Value]이거 아니다. NSDictionary다. _userDomain의 타입이 Any(타입)가 아니라 AnyObject(오브젝트)라서 그렇다. 구현은 다음과 같다. 아니 나는 보통 이렇게 한다.
+~~~
+
+3. _userDomain은 NSDictionary를 반환한다. [Key: Value]이거 아니다. NSDictionary다. _userDomain의 타입이 Any(타입)가 아니라 AnyObject(오브젝트)라서 그렇다. 구현은 다음과 같다. 아니 나는 보통 이렇게 한다.
 
 ~~~swift
 enum SomeError: Error {
