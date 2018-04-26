@@ -3,7 +3,7 @@ layout  : wiki
 title   : Error(Type)
 summary : 
 date    : 2018-04-26 22:34:53 +0900
-updated : 2018-04-26 23:26:52 +0900
+updated : 2018-04-26 23:31:56 +0900
 tags    : 
 toc     : true
 public  : true
@@ -20,7 +20,8 @@ latex   : false
 
 ## Swift <-> NSError
 
-- 레퍼런스나 interop 가이드를 봐도 swift의 error를 NSError로 변환시 code, domain, userInfo부분을 어떻게 하면 되는지 나오지 않는다. ErrorType.swift의 소스를 보면 아래와 같다.
+- 레퍼런스나 interop 가이드를 봐도 swift의 error를 NSError로 변환시 code, domain, userInfo부분을 어떻게 하면 되는지 나오지 않는다. `enum SomeError: Error`로 구현한 경우 NSError로 변환시 `Error Domain=__lldb_expr_1.SomeError Code=1 "(null)"`의 형태로 출력된다. 나쁠건 없지만, 그래도 좀 더 읽기 편한게 좋을거 같다.
+- ErrorType.swift의 소스를 보면 아래와 같다.
 
 ~~~swift
 public protocol Error {
