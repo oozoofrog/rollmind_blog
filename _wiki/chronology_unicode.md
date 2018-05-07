@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-04-26 23:47:59 +0900
+updated : 2018-05-07 22:33:01 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -97,3 +97,13 @@ Collins는 RLG와 CCCII의 데이터를 사용해서 [Hypercard](https://ko.wiki
 ## 1989년 4월
 
 당시까지의 ISO 등록 표준에 모든 복합 문자를 포함하고, 현존하는 모든 표준에 round trip 변환을 보장한다는 결정을 내렸다.
+
+## 1989년 5월
+
+Becker와 Collins는 일반적인 Han 문자에 대해 논의하기 위해 홍콩에서 열린 AFII 모임에 참석했다. AFII는 ISO DP 10646을 통해 Han Unification의 지원을 결정한다.
+
+## 1989년 9월
+
+Becker와 Collins는 Apple과 Xerox의 Han 데이터베이스의 차이점을 해결하여 통합한다. 기존의 표준에서 모든 특징을 유지하고 변형을 해결하기 위해 JIS와 Chinese 가이드라인을 따르기로 결정한다.
+
+양방향 (중동) 그리고 인도어 텍스트를 위해 논리적 순번을 사용하기로 결정한다. 다중 임베딩(역주: 화면에 표시하는 문자가 아닌 문자열의 좌우 순서 등을 지시하는 특수한 유니코드등을 삽입하는 것에 대한 지칭입니다. 아마도..)에 대한 문제가 처음 논의된다.
