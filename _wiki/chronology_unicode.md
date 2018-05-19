@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-05-07 22:33:01 +0900
+updated : 2018-05-20 01:10:21 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -102,8 +102,15 @@ Collins는 RLG와 CCCII의 데이터를 사용해서 [Hypercard](https://ko.wiki
 
 Becker와 Collins는 일반적인 Han 문자에 대해 논의하기 위해 홍콩에서 열린 AFII 모임에 참석했다. AFII는 ISO DP 10646을 통해 Han Unification의 지원을 결정한다.
 
-## 1989년 9월
+## 1989년 8월
 
 Becker와 Collins는 Apple과 Xerox의 Han 데이터베이스의 차이점을 해결하여 통합한다. 기존의 표준에서 모든 특징을 유지하고 변형을 해결하기 위해 JIS와 Chinese 가이드라인을 따르기로 결정한다.
 
 양방향 (중동) 그리고 인도어 텍스트를 위해 논리적 순번을 사용하기로 결정한다. 다중 임베딩(역주: 화면에 표시하는 문자가 아닌 문자열의 좌우 순서 등을 지시하는 특수한 유니코드등을 삽입하는 것에 대한 지칭입니다. 아마도..)에 대한 문제가 처음 논의된다.
+
+## 1989년 9월
+
+Becker와 Collins는 (Becker가 인쇄한) Unicode의 첫 초안을 ANSI X3L2에 제안한다. 그 결과로 ANSI측에서 Han Unification과 C0, C1의 사용의 절충안을 ISO에 제시합니다.
+Becker and Collins present first draft (printed by Becker) of Unicode to ANSI X3L2. As a result, ANSI proposes a compromised Han Unification and use of C0, C1 to ISO. Apple, Claris, Metaphor, NeXT, and Sun participate on behalf of Unicode. This first draft uses Davis's Gray code scheme for ordering the Han.
+
+As a result of this compromise, the Unicode working group decides to use existing ISO orderings for script subsets, and use the ISO naming schemes.
