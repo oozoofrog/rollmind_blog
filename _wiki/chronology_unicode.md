@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-05-20 01:10:21 +0900
+updated : 2018-05-20 22:13:20 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -110,7 +110,5 @@ Becker와 Collins는 Apple과 Xerox의 Han 데이터베이스의 차이점을 �
 
 ## 1989년 9월
 
-Becker와 Collins는 (Becker가 인쇄한) Unicode의 첫 초안을 ANSI X3L2에 제안한다. 그 결과로 ANSI측에서 Han Unification과 C0, C1의 사용의 절충안을 ISO에 제시합니다.
-Becker and Collins present first draft (printed by Becker) of Unicode to ANSI X3L2. As a result, ANSI proposes a compromised Han Unification and use of C0, C1 to ISO. Apple, Claris, Metaphor, NeXT, and Sun participate on behalf of Unicode. This first draft uses Davis's Gray code scheme for ordering the Han.
-
-As a result of this compromise, the Unicode working group decides to use existing ISO orderings for script subsets, and use the ISO naming schemes.
+Becker와 Collins는 (Becker가 인쇄한) Unicode의 첫 초안을 ANSI X3L2에 제안한다. 그 결과로 ANSI측에서 Han Unification과 C0, C1의 사용의 절충안을 ISO에 제시합니다. Apple, Claris, Metaphor, NeXT 그리고 Sun이 Unicode를 대변하여 참여했습니다. 이 첫번째 초안은 Han의 정렬을 위해 Davis의 Gray code 체계를 사용합니다.
+이 절충안으로 유니코드 작업그룹은 스크립트 하위 집합을 위해 기존의 ISO 정렬과 ISO 명명 체계를 사용하기로 결정합니다.
