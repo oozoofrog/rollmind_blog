@@ -3,7 +3,7 @@ layout  : wiki
 title   : 공부, 그리고 공부
 summary : 
 date    : 2018-04-12 21:49:06 +0900
-updated : 2018-06-01 08:52:49 +0900
+updated : 2018-06-05 08:42:55 +0900
 tags    : 
 toc     : true
 public  : true
@@ -13,7 +13,7 @@ latex   : false
 * TOC
 {:toc}
 
-[[구체수학]]{concrete_mathematics}
+[[concrete_mathematics]]{구체수학}
 
 [[todos]]{To Do}
 
