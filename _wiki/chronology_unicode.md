@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-05-20 22:13:20 +0900
+updated : 2018-06-16 22:29:52 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -110,5 +110,13 @@ Becker와 Collins는 Apple과 Xerox의 Han 데이터베이스의 차이점을 �
 
 ## 1989년 9월
 
-Becker와 Collins는 (Becker가 인쇄한) Unicode의 첫 초안을 ANSI X3L2에 제안한다. 그 결과로 ANSI측에서 Han Unification과 C0, C1의 사용의 절충안을 ISO에 제시합니다. Apple, Claris, Metaphor, NeXT 그리고 Sun이 Unicode를 대변하여 참여했습니다. 이 첫번째 초안은 Han의 정렬을 위해 Davis의 Gray code 체계를 사용합니다.
-이 절충안으로 유니코드 작업그룹은 스크립트 하위 집합을 위해 기존의 ISO 정렬과 ISO 명명 체계를 사용하기로 결정합니다.
+Becker와 Collins는 (Becker가 인쇄한) Unicode의 첫 초안을 ANSI X3L2에 제안한다. 그 결과로 ANSI측에서 Han Unification과 C0, C1의 사용의 절충안을 ISO에 제시한다. Apple, Claris, Metaphor, NeXT 그리고 Sun이 Unicode를 대변하여 참여했다. 이 첫번째 초안은 Han의 정렬을 위해 Davis의 Gray code 체계를 사용한다.
+이 절충안으로 유니코드 작업그룹은 스크립트 하위 집합을 위해 기존의 ISO 정렬과 ISO 명명 체계를 사용하기로 결정한다.
+
+## 1989년 10월
+
+Collins는 TrueType에 대한 Apple과 Microsoft간의 협조를 통해 Microsoft와IBM에 Unicode를 제공한다.
+Collins는 ANSI와 Unicode를 대표하여 베이징에서 열린 Han Unification에 대한 ISO Ad Hoc에 참석한다. 이 회합을 통해 Han 문자에 대한 인간 친화적 문자 순서를 권고한다. Unicode는 Han 통합을 위해 중국과 협력하기로 결의한다.
+Collins는 Apple의 일본인 기술자와 Unicode에 대해 논의하고 지원을 얻는다.
+Davis는 요르단의 암만에서 열린 ISO SC2/WG2에서 Unicode를 대표하여 참석한다. WG2는 [분음 기호](https://support.microsoft.com/ko-kr/help/4033601/diacritical-marks-described)(역주: ü등의 문자위에 붙는 발음 기호)를 허용하기로 한다.
+도쿄에서 AT&T Unix Pacific의 Rick McGowan은 unicode@sun.com을 통해 Unicode의 지원을 위한 활발한 토론을 시작한다.
