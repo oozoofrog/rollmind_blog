@@ -3,7 +3,7 @@ layout  : wiki
 title   : RxSwift의 이것저것
 summary : 
 date    : 2018-07-24 08:55:38 +0900
-updated : 2018-07-24 09:26:08 +0900
+updated : 2018-07-24 10:34:51 +0900
 tags    : 
 toc     : true
 public  : true
@@ -108,3 +108,5 @@ var vc: ViewController? = ViewController()
 vc = nil
 
 ```
+
+# Completable은 왜 다음 스트림을 연결할 수 없는 것인가?(조사중)
