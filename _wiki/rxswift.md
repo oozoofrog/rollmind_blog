@@ -3,7 +3,7 @@ layout  : wiki
 title   : RxSwift의 이것저것
 summary : 
 date    : 2018-07-24 08:55:38 +0900
-updated : 2018-07-24 09:03:53 +0900
+updated : 2018-07-24 09:26:08 +0900
 tags    : 
 toc     : true
 public  : true
@@ -19,11 +19,6 @@ latex   : false
 일단 참조 구조를 순환 참조구성을 목표로 간단히 흉내내 봤다.
 
 ```swift
-
-import RxSwift
-import RxCocoa
-import RxBlocking
-import RxTest
 
 class Bag {
     var items: [Any] = []
@@ -43,23 +38,29 @@ class Observer<Element> {
 
 class Observable<Element> {
 
+    var element: Element?
     var observers: [(Element) -> Void] = []
     var subscribes: [(Element) -> Void] = []
 
-    func create(_ handle: @escaping ((Element) -> Void) -> Void) -> Observable<Element> {
+    func just(_ element: Element) -> Observable<Element> {
         let observer: Observer<Element> = Observer { event in
             self.subscribes.forEach({ (handle) in
                 handle(event)
             })
         }
         observers.append(observer.handle)
-        handle(observer.handle)
-
+        self.element = element
         return self
     }
 
     func subscribe(_ handle: @escaping (Element) -> Void) -> Observable {
         self.subscribes.append(handle)
+        guard let element = self.element else {
+            return self
+        }
+        observers.forEach { (handle) in
+            handle(element)
+        }
         return self
     }
 
@@ -85,10 +86,9 @@ class ViewController {
 
     func viewDidLoad() {
         let observable = Observable<Int>()
-            .create { (event) in
-                event(10)
-            }
+            .just(10)
             .subscribe { value in
+                print(value)
                 self.value = value
         }
         self.bag.items.append(observable)
@@ -103,6 +103,8 @@ class ViewController {
 }
 
 var vc: ViewController? = ViewController()
-vc = nil // ViewController.viewDidLoad의 주석부분을 해지하지 않으면 ViewController의 참조는 해지되지 않는다.
+// ViewController.viewDidLoad의 주석부분을 해지하지 않으면
+// ViewController의 참조는 해지되지 않는다.
+vc = nil
 
 ```
