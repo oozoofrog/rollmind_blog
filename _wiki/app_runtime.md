@@ -3,7 +3,7 @@ layout  : wiki
 title   : 런타임 앱
 summary : 
 date    : 2018-08-07 01:11:50 +0900
-updated : 2018-08-07 01:13:37 +0900
+updated : 2018-08-07 01:23:57 +0900
 tags    : 
 toc     : true
 public  : true
@@ -15,5 +15,7 @@ latex   : false
 {:toc}
 
 # repo
-https://github.com/rollmind/runtime
+
+[런타임 깃헙 repository](https://github.com/rollmind/runtime)
+
 시작이 반이고 지금은 새벽이니까 여기까지 반만 하겠다.
