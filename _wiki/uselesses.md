@@ -3,7 +3,7 @@ layout  : wiki
 title   : 쓸모 없는 것들
 summary : 
 date    : 2018-08-07 00:31:53 +0900
-updated : 2018-08-07 01:15:30 +0900
+updated : 2018-08-07 01:16:44 +0900
 tags    : 
 toc     : true
 public  : true
@@ -28,6 +28,6 @@ latex   : false
 머리가 안돌아간다. 쓸모는 없어도 재미는 있어야 하는데, 이게 안되서 미루기로 한다.
 
 # 1. 처음 작동한 시점부터 다시 작동한 시간을 알려주는 앱
-[[app_runtime]]{{런타임}}
+[[app_runtime]]{런타임}
 위에서도 말했지만, 이름이 생각이 안나서 원래 사용하고 있던 깃헙에 repository를 생성한다.
 
