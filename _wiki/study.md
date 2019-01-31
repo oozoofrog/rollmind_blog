@@ -3,7 +3,7 @@ layout  : wiki
 title   : 공부, 그리고 공부
 summary : 
 date    : 2018-04-12 21:49:06 +0900
-updated : 2018-06-05 08:42:55 +0900
+updated : 2019-01-31 11:53:57 +0900
 tags    : 
 toc     : true
 public  : true
@@ -24,3 +24,6 @@ latex   : false
 [[chronology_unicode]]{유니코드 1.0 연대기}
 
 [[counts_by_language]]{프로그래밍 언어별 문자열 세기(feat. unicode)}
+
+[[vim]]{빔 공부}
+
