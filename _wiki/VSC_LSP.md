@@ -1,14 +1,14 @@
 ---
 layout  : wiki
-title   : 
+title   : 비주얼 소스 코드에서 스위프트 LSP 사용하기
 summary : 
 date    : 2019-02-17 21:13:21 +0900
-updated : 2019-02-17 22:44:11 +0900
+updated : 2019-02-17 22:58:01 +0900
 tags    : 
 toc     : true
 public  : true
-parent  : 
-parenttitle : 
+parent  : swift
+parenttitle : swift
 latex   : false
 ---
 * TOC
