@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2019-02-18 09:43:53 +0900
+updated : 2019-02-18 11:45:54 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -137,6 +137,7 @@ McGowan 나중에 도쿄에서 처음 열린 Unicode회의에 Apple Japan, Micro
 JIS 위원회가 Unicode에 대해 논의하기 위한 만난다. Collins는 이 회의의 결과로 나온 Pro Tajima의 논의를 번역한다. Becker와 Collins는 답변서를 작성한다.
 Sebold Report on Desktop Publishing은 폰트에 대한 논의의 부분으로 Unicode 프로젝트를 하일라이트로 싣는다. Becker, Collins 그리고 Davis는 4월 이슈에 두 가지에 대한 긴 정정문으로 응답한다.
 
-## 1990년 2월
+## 1990년 3월
 
+Collins와 Becker는 대한민국에서 열린 ISO WG2 Ad Hoc on Han Unification에 참가한다. 유니코드의 새로운 구성은 강희자전식 부수 획 순서에 근거해서 배포되었다.
 
