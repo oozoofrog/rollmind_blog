@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2018-06-16 22:29:52 +0900
+updated : 2019-02-18 09:43:53 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -16,7 +16,7 @@ latex   : false
 
 # 유니코드 1.0 연대기
 
-*이 글은 unicode.org에 수록되어있는 unicode version 1.0가 나오기 까지의 연대별 히스토리입니다.*
+*이 글은 unicode.org에 수록되어있는 [unicode version 1.0](https://www.unicode.org/history/versionone.html)가 나오기 까지의 연대별 히스토리입니다.*
 
 ## 1986~1987
 
@@ -120,3 +120,23 @@ Collins는 ANSI와 Unicode를 대표하여 베이징에서 열린 Han Unificatio
 Collins는 Apple의 일본인 기술자와 Unicode에 대해 논의하고 지원을 얻는다.
 Davis는 요르단의 암만에서 열린 ISO SC2/WG2에서 Unicode를 대표하여 참석한다. WG2는 [분음 기호](https://support.microsoft.com/ko-kr/help/4033601/diacritical-marks-described)(역주: ü등의 문자위에 붙는 발음 기호)를 허용하기로 한다.
 도쿄에서 AT&T Unix Pacific의 Rick McGowan은 unicode@sun.com을 통해 Unicode의 지원을 위한 활발한 토론을 시작한다.
+
+## 1989년 11월
+
+Unicode Han Set에 JIS X 0212-1990과 GB1을 포함하기 위한 맵핑을 식별하기 위해 Cora Zhang를 고용한다.
+
+## 1989년 12월
+
+Collins는 TrueType 폰트인 Jamboree에서 애플의 다음 문자열 셋으로 Unicode을 제시한다.
+Becker는 Unix 국제화 회의에서 Unicode를 발표한다.
+
+## 1990년 1월
+
+True Type에 대한 Apple과 Microsoft의 협력으로 Microsoft는 Unicode에 흥미를 보이기 시작한다. Microsoft의 Michel Suignard와 Asmus Freytag는 Unicode 회의에 참여하기 시작한다.
+McGowan 나중에 도쿄에서 처음 열린 Unicode회의에 Apple Japan, Microsoft KK 등과 함께 참가한다.
+JIS 위원회가 Unicode에 대해 논의하기 위한 만난다. Collins는 이 회의의 결과로 나온 Pro Tajima의 논의를 번역한다. Becker와 Collins는 답변서를 작성한다.
+Sebold Report on Desktop Publishing은 폰트에 대한 논의의 부분으로 Unicode 프로젝트를 하일라이트로 싣는다. Becker, Collins 그리고 Davis는 4월 이슈에 두 가지에 대한 긴 정정문으로 응답한다.
+
+## 1990년 2월
+
+
