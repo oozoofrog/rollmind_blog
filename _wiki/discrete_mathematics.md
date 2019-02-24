@@ -3,7 +3,7 @@ layout  : wiki
 title   : 이산수학
 summary : 이산수학을 배우자
 date    : 2019-02-21 23:49:35 +0900
-updated : 2019-02-22 00:29:47 +0900
+updated : 2019-02-24 22:16:50 +0900
 tags    : discrete,mathematics,computerscience
 toc     : true
 public  : true
@@ -22,11 +22,5 @@ latex   : false
 # 무엇으로 공부하나?
 Rosen의 이산수학 책으로 한다.
 
-1. 기초: 논리와 증명
-논리는 수학적 의미를 구체화하며, 증명은 컴퓨터 사이언스에서 매우 중요하다. 여기서는 수학적 논증이 무엇으로 되어있는지 배운다.
+1. [[The Foundations: Logic and Proofs]]{기초: 논리와 증명}
 
-1.1 명제 논리
-- 서론
-    - 논리규칙은 수학적의미를 명확하게 작성하도록 할 수 있다.
-- 명제
-명제는 문장에서 참 거짓을 판별할 수 있는 선언적 문장이다.
