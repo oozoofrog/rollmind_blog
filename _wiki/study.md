@@ -3,7 +3,7 @@ layout  : wiki
 title   : 공부, 그리고 공부
 summary : 
 date    : 2018-04-12 21:49:06 +0900
-updated : 2019-02-22 00:00:05 +0900
+updated : 2019-02-24 23:05:59 +0900
 tags    : 
 toc     : true
 public  : true
@@ -28,3 +28,5 @@ latex   : false
 [[vim]]{빔 공부}
 
 [[discrete_mathematics]]{이산수학}
+
+[[test_drive_development_by_example]]{예제로 배우는 테스트 주도 개발}
