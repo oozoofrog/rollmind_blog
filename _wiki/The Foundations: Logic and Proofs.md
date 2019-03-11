@@ -3,7 +3,7 @@ layout  : wiki
 title   : The Foundations: Logic and Proofs
 summary : 
 date    : 2019-02-24 22:13:24 +0900
-updated : 2019-02-24 22:16:39 +0900
+updated : 2019-03-03 13:25:43 +0900
 tags    : discretemathematic
 toc     : true
 public  : true
@@ -32,3 +32,8 @@ latex   : false
     - x + 1 = 2
 
 하나 혹은 여러 개의 명제를 조합하여 만드는 명제를 **복합명제(compound propositions)** 라고 하며, **The Laws of Though**에서 George Boole이 논의했다.
+
+
+### 조건문
+p와 q가 명제라면, 조건문 `p -> q`는 명제 `if p then q`이다.
+
