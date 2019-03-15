@@ -3,8 +3,8 @@ layout  : wiki
 title   : The Foundations: Logic and Proofs
 summary : 
 date    : 2019-02-24 22:13:24 +0900
-updated : 2019-03-15 22:45:15 +0900
-tags    : discretemathematic
+updated : 2019-03-15 22:55:24 +0900
+tags    : discrete,mathematic
 toc     : true
 public  : true
 parent  : discrete_mathematics
