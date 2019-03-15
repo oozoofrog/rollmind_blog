@@ -3,7 +3,7 @@ layout  : wiki
 title   : The Foundations: Logic and Proofs
 summary : 
 date    : 2019-02-24 22:13:24 +0900
-updated : 2019-03-03 13:25:43 +0900
+updated : 2019-03-15 22:45:15 +0900
 tags    : discretemathematic
 toc     : true
 public  : true
@@ -37,3 +37,13 @@ latex   : false
 ### 조건문
 p와 q가 명제라면, 조건문 `p -> q`는 명제 `if p then q`이다.
 
+### 논리 수수께끼
+`항상 진실만을 이야기하는 기사 계급과 항상 거짓만을 이야기하는 악한들이 사는 섬이 있다. 당신이 A와 B를 만났을 때, A는 "B는 기사계급이다." 라고 이야기하고, B는 "우리는 서로 계급이 다르다" 라고 했다면 누가 어느 계급에 속하는가?`
+
+1. 명제
+여기에서 계급은 두 가지이다. 기사계급과 악한계급. positive를 기사계급으로 negative를 악한으로 정하면 postive와 postive의 not조건으로 수식작성이 가능하다.
+- 정의
+p: A는 기사계급이다.
+q: B는 기사계급이다.
+
+p 가 참이라면 q 또한 참이다. B는 기사계급이 맞다면, 서로 계급이 다른 조건인 $$ (p \land ¬q) \lor (¬p  \land q) $$ 도 참이 되어야 하지만, 답은 false인 거짓이 된다. 결론은 A는 거짓말을 했고 악한이다. B 또한 거짓말을 했고 악한이다. p가 거짓이라면 p = false라면 q또한 false가 되고 위의 식은 참이된다.
