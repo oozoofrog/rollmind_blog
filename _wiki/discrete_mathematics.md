@@ -3,7 +3,7 @@ layout  : wiki
 title   : 이산수학
 summary : 이산수학을 배우자
 date    : 2019-02-21 23:49:35 +0900
-updated : 2019-02-24 22:16:50 +0900
+updated : 2019-03-15 22:51:59 +0900
 tags    : discrete,mathematics,computerscience
 toc     : true
 public  : true
@@ -22,5 +22,5 @@ latex   : false
 # 무엇으로 공부하나?
 Rosen의 이산수학 책으로 한다.
 
-1. [[The Foundations: Logic and Proofs]]{기초: 논리와 증명}
+1. [[the-foundations-logic-and-proofs]]{기초: 논리와 증명}
 
