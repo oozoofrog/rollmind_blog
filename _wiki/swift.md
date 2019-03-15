@@ -13,6 +13,8 @@ title: swift
 
 [[sil_study]]{SIL 스터디}
 
+[[sil.rst]]{SIL.rst}
+
 [[rxswift]]{RxSwift에 대해 이것저것}
 
 [[VSC_LSP]]{비주얼 소스 코드에서 스위프트 LSP 사용하기}
