@@ -1,4 +1,4 @@
- ---
+---
 layout  : wiki
 title   : 구체수학
 summary : 
