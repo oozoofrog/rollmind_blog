@@ -3,7 +3,7 @@ layout  : wiki
 title   : 유니코드 1.0 연대기
 summary : 유니코드의 초창기부터 연대별 정리
 date    : 2018-04-14 23:47:46 +0900
-updated : 2019-02-18 11:45:54 +0900
+updated : 2019-03-20 23:57:58 +0900
 tags    : unicode chronology
 toc     : true
 public  : true
@@ -140,4 +140,8 @@ Sebold Report on Desktop Publishing은 폰트에 대한 논의의 부분으로 U
 ## 1990년 3월
 
 Collins와 Becker는 대한민국에서 열린 ISO WG2 Ad Hoc on Han Unification에 참가한다. 유니코드의 새로운 구성은 강희자전식 부수 획 순서에 근거해서 배포되었다.
-
+Han을 제외한 유니코드는 이 시점에서 기본적으로는 완료되었다. 크로스 맵핑(아직 정확한 의미를 모르겠다.)과 명명 작업이 시작된다.
+호환성을 위해서 0x0080-0x009F C1 영역에서 문자를 제거했다. **Roundtrip**이 ISO 8859 와 ISO 6937을 통해 보증되었다.
+Sun Microsystems의 Glenn Wright와 Metaphor의 Mike Kernaghan은 유니코드 협회의 법인체를 설립하는 작업에 들어간다.
+Joan Winters는 유니코드 모임에서 SHARE(1955년에 결성된 최초의 IT 사용자 그룹)를 대표해 참석하기 시작한다. (SHARE는 신문지상이나 컨퍼런스에서 Unicode가 주목 받을 수 있도록 활동한다.)
+Microsoft Japan의 키타노, Apple Japan의 야마무라 그리고 McGowan 세 명은 일본 유니코드 스터디 그룹을 발족한다. 후에 Apple Japan의 타카하시, 야마다, IBM 재팬의 키도, 스즈키, Syn Microsystems Japan의 쿠로사카, Fujitsu의 세키구치가 참여한다.
