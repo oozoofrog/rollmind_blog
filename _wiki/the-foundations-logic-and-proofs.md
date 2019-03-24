@@ -3,7 +3,7 @@ layout  : wiki
 title   : 명제 논리와 응용
 summary : 
 date    : 2019-02-24 22:13:24 +0900
-updated : 2019-03-15 23:12:53 +0900
+updated : 2019-03-24 22:09:33 +0900
 tags    : discrete,mathematic
 toc     : true
 public  : true
@@ -47,3 +47,21 @@ p: A는 기사계급이다.
 q: B는 기사계급이다.
 
 p 가 참이라면 q 또한 참이다. B는 기사계급이 맞다면, 서로 계급이 다른 조건인 $$ (p and not q) or (not p and q) $$ 도 참이 되어야 하지만, 답은 false인 거짓이 된다. 결론은 A는 거짓말을 했고 악한이다. B 또한 거짓말을 했고 악한이다. p가 거짓이라면 p = false라면 q또한 false가 되고 위의 식은 참이된다.
+
+
+## 1.4 술어와 한정 기호
+- 술어
+    - $$x > 3$$
+    - $$x = y + 3$$
+    - $$x + y = z$$
+    - computer x is under attack by an intruder.
+    - computer x is functioning properly.
+    - 변수를 포함하는 문장, 값이 정해지지 않으면 참 거짓 판별 불가
+    - x is greater than 3
+        - 두 문장으로 구성
+        - 변수 x
+        - is greater than 3 <- predicate(술어)
+        - $$P(x) = x is greater than 3$$ 표현 가능
+        - P(x)
+            - P -> is greater than 3
+            - x -> x
