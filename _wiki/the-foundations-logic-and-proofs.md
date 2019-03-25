@@ -3,7 +3,7 @@ layout  : wiki
 title   : 명제 논리와 응용
 summary : 
 date    : 2019-02-24 22:13:24 +0900
-updated : 2019-03-25 11:15:03 +0900
+updated : 2019-03-25 21:52:37 +0900
 tags    : discrete,mathematic
 toc     : true
 public  : true
@@ -85,3 +85,9 @@ y := temp
         - 모든 입력 값에 대해 값의 교환이 발생
         - x = b 이고 y = a
         - Q(x, y)
+- 한정화(quantifier)
+    - 명제 -> 명제함수의 모든 변수에 값이 할당 되어 참 거짓이 판별이 가능한 경우.
+    - 한정화 -> 명제함수로부터 명제를 생성
+    - 사용단어 -> all, some, many, none, few 등
+    - 전칭 한정기호(universal quantifier)
+    - 존재 한정기호
