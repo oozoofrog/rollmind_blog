@@ -3,7 +3,7 @@ layout  : wiki
 title   : 명제 논리와 응용
 summary : 
 date    : 2019-02-24 22:13:24 +0900
-updated : 2019-03-24 22:09:33 +0900
+updated : 2019-03-25 11:15:03 +0900
 tags    : discrete,mathematic
 toc     : true
 public  : true
@@ -51,9 +51,9 @@ p 가 참이라면 q 또한 참이다. B는 기사계급이 맞다면, 서로 �
 
 ## 1.4 술어와 한정 기호
 - 술어
-    - $$x > 3$$
-    - $$x = y + 3$$
-    - $$x + y = z$$
+    - $$x > 3$$.
+    - $$x = y + 3$$.
+    - $$x + y = z$$.
     - computer x is under attack by an intruder.
     - computer x is functioning properly.
     - 변수를 포함하는 문장, 값이 정해지지 않으면 참 거짓 판별 불가
@@ -65,3 +65,23 @@ p 가 참이라면 q 또한 참이다. B는 기사계급이 맞다면, 서로 �
         - P(x)
             - P -> is greater than 3
             - x -> x
+- 전조건과 후조건(PRECONDITIONS AND POSTCONDITIONS)
+    - 술어는 컴퓨터 프로그램이 입력에 대해 원하는 출력을 산출한다는 것을 확증하는데 사용
+    - preconditions -> 올바른 입력을 기술
+    - postconditions -> 프로그램 수행시 출력이 만족해야 하는 조건
+- 예제 7. 다음 프로그램의 전조건과 후조건을 술어를 구하자.
+```
+temp := x
+x := y
+y := temp
+```
+    - x 와 y의 값을 치환
+    - x 와 y가 어떤 값을 가지고 있다는 것을 표현할 필요가 있다.
+    - 전조건
+        - a와 b가 값이라고 가정
+        - 술어: x = a이고 y = b
+        - P(x, y)
+    - 후조건
+        - 모든 입력 값에 대해 값의 교환이 발생
+        - x = b 이고 y = a
+        - Q(x, y)
