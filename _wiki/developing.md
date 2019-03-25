@@ -3,7 +3,7 @@ layout  : wiki
 title   : 개발새발
 summary : 개발에 대한 이것저것
 date    : 2018-09-30 20:22:29 +0900
-updated : 2018-09-30 20:24:52 +0900
+updated : 2019-03-25 21:46:24 +0900
 tags    : 
 toc     : true
 public  : true
@@ -26,3 +26,4 @@ latex   : false
 
 [[git_tips]]{GIT 팁}
 
+[[macos_tips]]{macOS 팁}

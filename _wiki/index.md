@@ -7,7 +7,7 @@
 
 [[iOS]]{iOS에 대한 이것저것}
 
-[[developing]]{개발새발?}
+[[developing]]{개발의 이모저모}
 
 [[settings]]{가지가지 설정법}
 
