@@ -3,6 +3,8 @@ layout: wiki
 title: swift
 ---
 
+[[swift_5_0]]{Swift 5.0}
+
 [[swift_source]]{스위프트 소스를 분석해보자}
 
 [[learn_computer_science_with_swift]]{Learn Computer Science with Swift}
