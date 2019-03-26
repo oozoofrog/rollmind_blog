@@ -3,7 +3,7 @@ layout  : wiki
 title   : Swift 5.0
 summary : Swift 5.0 내용 요약
 date    : 2019-03-27 00:57:51 +0900
-updated : 2019-03-27 01:33:28 +0900
+updated : 2019-03-27 01:40:14 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,22 +14,22 @@ latex   : false
 * TOC
 {:toc}
 
-*[원문](https://swift.org/blog/swift-5-released/)
+*[원문](https://swift.org/blog/swift-5-released/)*
 
 # Language Updates
 ## ABI 안정화 및 바이너리 호환성
 ### 새로운 피처
-    - Swift 라이브러리가 앞으로, macOS, iOS, tvOS, watchOS에 포함. 기존에는 앱에 포함되어 앱의 크기를 키웠음.
-        - [ABI Stability and More](https://swift.org/blog/abi-stability-and-more/)
-        - [Evolving Swift On Apple Platforms After ABI Stability](https://swift.org/blog/abi-stability-and-apple/)
-    ## Standard Library Updates
-    - String이 UTF-8 인코딩으로 다시 전환하여 퍼포먼스를 높임
-        - [UTF-8 String](https://swift.org/blog/utf8-string/)
-    - raw text를 지원하는 string literal 추가
-        - [String Literals](https://swift.org/blog/behind-se-0200/)
-    - Result 와 SIMD 벡터 타입 추가
-    - String interpolation 확장
-    - Dictionary 와 Set의 퍼포먼스 향상
+- Swift 라이브러리가 앞으로, macOS, iOS, tvOS, watchOS에 포함. 기존에는 앱에 포함되어 앱의 크기를 키웠음.
+    - [ABI Stability and More](https://swift.org/blog/abi-stability-and-more/)
+    - [Evolving Swift On Apple Platforms After ABI Stability](https://swift.org/blog/abi-stability-and-apple/)
+## Standard Library Updates
+- String이 UTF-8 인코딩으로 다시 전환하여 퍼포먼스를 높임
+    - [UTF-8 String](https://swift.org/blog/utf8-string/)
+- raw text를 지원하는 string literal 추가
+    - [String Literals](https://swift.org/blog/behind-se-0200/)
+- Result 와 SIMD 벡터 타입 추가
+- String interpolation 확장
+- Dictionary 와 Set의 퍼포먼스 향상
 ### 포함하는 Swift Evolution 제안
 
 - [SE-0200 Enhancing String Literals Delimiters to Support Raw Text](https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md)
