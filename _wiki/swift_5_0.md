@@ -3,7 +3,7 @@ layout  : wiki
 title   : Swift 5.0
 summary : Swift 5.0 내용 요약
 date    : 2019-03-27 00:57:51 +0900
-updated : 2019-03-27 21:35:06 +0900
+updated : 2019-03-28 10:26:02 +0900
 tags    : 
 toc     : true
 public  : true
@@ -23,7 +23,7 @@ latex   : false
 ### 새로운 피처
 
 - Swift 라이브러리가 앞으로, macOS, iOS, tvOS, watchOS에 포함. 기존에는 앱에 포함되어 앱의 크기를 키웠음.
-    - [ABI Stability and More](https://swift.org/blog/abi-stability-and-more/)
+    - [[abi_stability_and_more]]{ABI 안정화 그리고 그 이상}
     - [Evolving Swift On Apple Platforms After ABI Stability](https://swift.org/blog/abi-stability-and-apple/)
 
 ## Standard Library Updates
