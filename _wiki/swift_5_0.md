@@ -3,7 +3,7 @@ layout  : wiki
 title   : Swift 5.0
 summary : Swift 5.0 내용 요약
 date    : 2019-03-27 00:57:51 +0900
-updated : 2019-03-28 10:26:02 +0900
+updated : 2019-03-28 11:26:28 +0900
 tags    : 
 toc     : true
 public  : true
@@ -26,6 +26,7 @@ latex   : false
     - [[abi_stability_and_more]]{ABI 안정화 그리고 그 이상}
     - [Evolving Swift On Apple Platforms After ABI Stability](https://swift.org/blog/abi-stability-and-apple/)
 
+<br/>
 ## Standard Library Updates
 
 - String이 UTF-8 인코딩으로 다시 전환하여 퍼포먼스를 높임
@@ -36,7 +37,7 @@ latex   : false
 - String interpolation 확장
 - Dictionary 와 Set의 퍼포먼스 향상
 
-### 적용된 Swift Evolution
+### Swift Evolution
 
 - [SE-0200 Enhancing String Literals Delimiters to Support Raw Text](https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md)
 - [ SE-0211 Add Unicode Properties to Unicode.Scalar](https://github.com/apple/swift-evolution/blob/master/proposals/0211-unicode-scalar-properties.md)
@@ -55,7 +56,8 @@ latex   : false
 - [ SE-0239 Add Codable conformance to Range types](https://github.com/apple/swift-evolution/blob/master/proposals/0239-codable-range.md)
 - [SE-0241 Deprecate String Index Encoded Offsets](https://github.com/apple/swift-evolution/blob/master/proposals/0241-string-index-explicit-encoding-offset.md)
 
-### 그 외, 언어및 컴파일러 업데이트
+<br/>
+## 그 외, 언어사양 및 컴파일러 업데이트
 
 - exclusive access to memory를 debug와 release 빌드에 기본 적용합니다.
     - [Swift 5 Exclusivity Enforcement](https://swift.org/blog/swift-5-exclusivity/)
@@ -68,19 +70,49 @@ latex   : false
 - [ SE-0227 Identity key path](https://github.com/apple/swift-evolution/blob/master/proposals/0227-identity-keypath.md)
 - [ SE-0230 Flatten nested optionals resulting from ‘try?’](https://github.com/apple/swift-evolution/blob/master/proposals/0230-flatten-optional-try.md)
 
-# Package Manager
+<br/>
+## Package Manager
 
+- Swift 5의 몇 가지 새로운 기능을 포함
+    - 의존성 미러링
+    - target 별 빌드 설정(좋다.)
+    - 배포 target 사용자화
+    - 코드 커버리지 데이터 생성
+    - swift run 명령어를 통해 실행파일 빌드 없이 라이브러리를 REPL로 import할 수 있는 기능
+
+### Swift Evolution
+
+- [ SE-0219 Package Manager Dependency Mirroring](https://github.com/apple/swift-evolution/blob/master/proposals/0219-package-manager-dependency-mirroring.md)
+- [SE-0236 Package Manager Platform Deployment Settings](https://github.com/apple/swift-evolution/blob/master/proposals/0236-package-manager-platform-deployment-settings.md)
+- [ SE-0238 Package Manager Target Specific Build Settings](https://github.com/apple/swift-evolution/blob/master/proposals/0238-package-manager-build-settings.md)
+
+<br/>
 # Migrating to Swift 5
 
+Swift 5는 Swift 4, 4.1, 4.2와 소스 호환됩니다. 
+
+*Xcode는 항상 마이그레이션을 지원하지만, 손으로 하는것이 여러모로 좋습니다.*
+
+<br/>
 # Documentation
+[The Swift Programming Language](https://swift.org/blog/swift-5-released/) 문서가 업데이트 되었습니다. [Apple Books store](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11)에서도 무료로 받을 수 있습니다.
+
 
 # Platforms
 
 ## Linux
 
+공식 바이너리는 Ubuntu 18.04, Ubuntu 16.04, Ubuntu 14.04에서 사용 가능합니다.
+
+<br/>
 ## Apple (Xcode)
 
+... 써야함?
+
+<br/>
 # Sources
+
+Swift 5.0 브랜치를 따라가는 repository
 
 - [swift](https://github.com/apple/swift)
 - [swift-clang](https://github.com/apple/swift-clang)
