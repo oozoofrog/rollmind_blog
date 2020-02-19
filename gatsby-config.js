@@ -3,7 +3,7 @@ module.exports = {
     title: `Rollmind`,
     author: `Kwanghoon Choi`,
     description: `iOS|Swift 개발 블로그`,
-    siteUrl: `https://rollmind.github.io`,
+    siteUrl: `https://rollmind.netlify.com`,
     social: {
       twitter: `KwanghoonChoi`,
     },
